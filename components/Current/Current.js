@@ -31,22 +31,23 @@ function Current({ geoCodes, response }) {
         {geoCodes.name}, {geoCodes.country}
         {geoCodes.state && <>, {geoCodes.state}</>}
       </h3>
-
-      <CurrentCardHead
-        feels_like={feels_like}
-        temp={temp}
-        weather={weather}
-        humidity={humidity}
-        uvi={uvi}
-      />
-      <CurrentCardMain
-        clouds={clouds}
-        rain={rain}
-        snow={snow}
-        visibility={visibility}
-        wind_speed={wind_speed}
-      />
-      <CurrentCardEnd dt={dt} sunset={sunset} sunrise={sunrise} />
+      <>
+        <CurrentCardHead
+          feels_like={feels_like}
+          temp={temp}
+          weather={weather}
+          humidity={humidity}
+          uvi={uvi}
+        />
+        <CurrentCardMain
+          clouds={clouds}
+          rain={rain}
+          snow={snow}
+          visibility={visibility}
+          wind_speed={wind_speed}
+        />
+        <CurrentCardEnd dt={dt} sunset={sunset} sunrise={sunrise} />
+      </>
     </section>
   );
 }
