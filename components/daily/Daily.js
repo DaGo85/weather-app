@@ -1,4 +1,4 @@
-// Daily weather
+// Daily weather component
 
 import { getDate } from "../../utility/time";
 import Image from "next/image";
