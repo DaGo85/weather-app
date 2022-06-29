@@ -1,4 +1,5 @@
-import React from "react";
+// NavBar
+
 import NavBarLogo from "./components/NavBarLogo";
 import NavBarSearch from "./components/NavBarSearch";
 import NavBarSocialIcons from "./components/NavBarSocialIcons";
