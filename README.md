@@ -70,7 +70,7 @@ This is the nearly finished and working version of my Weather-APP.
 
 ## Contact
 
-Created by [@DaGo85](https://www.github.com/DaGo85/) - feel free to contact me!
+Created by [@DanGoer](https://www.github.com/DanGoer/) - feel free to contact me!
 
 ## License
 

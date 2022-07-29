@@ -1,3 +1,4 @@
+// Index file for the app
 import Chart from "../components/chart/Chart";
 import Current from "../components/current/Current";
 import Daily from "../components/daily/Daily";
@@ -5,11 +6,11 @@ import NavBar from "../components/navbar/NavBar";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Impressum from "../components/impressum/Impressum";
-import PlaceHolder from "../components/PlaceHolder/PlaceHolder";
+import PlaceHolder from "../components/placeHolder/PlaceHolder";
 
 // todo: time, page logo, fix py for navbar, fix bg for mozilla
 // todo: time, page logo fix py for navbar, fix bg for mozilla, change images
-// and give them width and height, rework the ul( only li elements)
+// and give them width and height
 
 export default function Home() {
   const [location, setLocation] = useState("");
