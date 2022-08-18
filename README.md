@@ -2,7 +2,7 @@
 
 > A Next.js weather app using d3 and Tailwind. It displays various data concerning the actual and upcoming weather.
 
-Live demo: https://weather-app-alpha-snowy.vercel.app/
+Live demo: https://weather.davidgo.ch/
 
 ## Table of Contents
 
@@ -59,9 +59,9 @@ This app has a default city. Also you can search for another location at the nav
 
 ## Project Status
 
-Project is: _incomplete_
+Project is: _complete_
 
-This is the nearly finished and working version of my Weather-APP.
+This is the finished and working version of my Weather-APP.
 
 ## Room for Improvement
 

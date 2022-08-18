@@ -8,9 +8,7 @@ import { useEffect, useState } from "react";
 import Impressum from "../components/impressum/Impressum";
 import PlaceHolder from "../components/placeholders/PlaceHolder";
 
-// todo: time, page logo, fix py for navbar, fix bg for mozilla
-// todo: time, page logo fix py for navbar, fix bg for mozilla, change images
-// and give them width and height
+// todo: fix py for navbar , fix input field bug, rework some css
 
 export default function Home() {
   const [location, setLocation] = useState("");
@@ -40,10 +38,10 @@ export default function Home() {
 
   useEffect(() => {
     setGeoCodes({
-      name: "Oberhausen",
-      country: "DE",
-      lat: 51.4878,
-      lon: 6.8633,
+      name: "Bern",
+      country: "CH",
+      lat: 46.57,
+      lon: 7.27,
     });
   }, []);
 
