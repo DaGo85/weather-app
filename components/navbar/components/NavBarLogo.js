@@ -1,17 +1,8 @@
 // NavBarLogo
 
-import Image from "next/image";
-// eye, eyes, gut1, lessborder 2?, nothing,xyz
 function NavBarLogo() {
   return (
     <>
-      {/*<Image
-        className="hover:fill-white"
-        src="/lessborder.svg"
-        alt=""
-        width="300"
-        height="160"
-  />*/}
       <svg
         id="ad135c08-350c-42e3-9120-ef28cc481eb1"
         data-name="Layer 1"
