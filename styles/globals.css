@@ -37,10 +37,6 @@
 @layer components {
   /* setups for card and main */
 
-  .main-bg {
-    background-image: url("/bg.jpeg");
-  }
-
   .card-style {
     @apply bg-slate-300 bg-opacity-80 text-slate-700 py-8 px-4 rounded-md shadow-lg;
   }

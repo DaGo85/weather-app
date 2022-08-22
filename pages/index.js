@@ -50,7 +50,8 @@ export default function Home() {
   }, [geoCodes]);
 
   return (
-    <div className="flex flex-col w-full h-screen bg-fixed bg-center bg-cover main-bg">
+    <div className="flex flex-col">
+      <div className="fixed w-screen h-screen bg-center bg-cover bg-main" />
       <header>
         <nav className="relative z-50 flex flex-col-reverse items-center justify-between gap-6 card-style md:flex-row">
           <NavBar

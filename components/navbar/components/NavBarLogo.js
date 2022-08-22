@@ -7,8 +7,8 @@ function NavBarLogo() {
         id="ad135c08-350c-42e3-9120-ef28cc481eb1"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 182.85 212.6"
-        className="w-24 hover:fill-white"
+        viewBox="0 0 182.85 165.6"
+        className="w-24 mr-4 hover:fill-white"
       >
         <defs>
           <style>.e611bd60-f45c-43d6-aa2f-579d3f52d223</style>
