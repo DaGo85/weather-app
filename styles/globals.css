@@ -68,7 +68,7 @@
   }
 
   .line {
-    @apply stroke-slate-600 fill-transparent stroke-[0.25rem];
+    @apply stroke-slate-600 fill-transparent stroke-[0.15rem] z-10;
   }
 
   .label-title {

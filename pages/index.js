@@ -18,9 +18,11 @@ export default function Home() {
 
   const getGeoCodes = async (location) => {
     const { data } = await axios.post("/api/getGeoCode", { location });
+
     if (data.length > 1) {
       setLocations(data);
     }
+
     if (data.length === 1) {
       setGeoCodes({
         name: data[0].name,
