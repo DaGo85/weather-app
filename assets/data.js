@@ -32,6 +32,6 @@ export const impressumData = {
     city: "3065 Bolligen",
   },
   contact: {
-    email: "E-Mail: davegoergens@gmail.com",
+    email: "davegoergens@gmail.com",
   },
 };
