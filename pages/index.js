@@ -73,7 +73,7 @@ export default function Home() {
           <Daily daily={response.daily} date={response.current.dt} />
         </main>
       ) : (
-        <main className="flex flex-col items-center justify-start w-full gap-24">
+        <main className="flex flex-col items-center justify-start w-full gap-24 py-24">
           <PlaceHolder />
         </main>
       )}
